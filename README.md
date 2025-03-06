@@ -20,7 +20,7 @@
 
 1. リポジトリをクローン
 ```bash
-git clone https://github.com/yourusername/juventus-fc-website.git
+git clone https://github.com/yutaro13m/juventus-base.git
 ```
 
 2. 依存関係のインストール
