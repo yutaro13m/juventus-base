@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ニュース - ユベントスFC</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <header class="header-container">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="ユベントスFC ロゴ">
+            </a>
+        </div>
+        <button class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="team.html">チーム</a></li>
+                <li><a href="matches.html">試合情報</a></li>
+                <li><a href="news.html">ニュース</a></li>
+                <li><a href="community.html">コミュニティ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="news-section">
+            <h1>ニュース</h1>
+
+            <div class="news-filters">
+                <button class="filter-btn active" data-category="all">すべて</button>
+                <button class="filter-btn" data-category="team">チーム</button>
+                <button class="filter-btn" data-category="match">試合</button>
+                <button class="filter-btn" data-category="community">コミュニティ</button>
+            </div>
+
+            <div class="news-grid">
+                <!-- ニュース記事がここに表示されます -->
+            </div>
+
+            <div class="pagination">
+                <button class="prev-page">前へ</button>
+                <span class="page-numbers">
+                    <span class="current">1</span>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                </span>
+                <button class="next-page">次へ</button>
+            </div>
+        </section>
+    </main>
+
+    <div class="share-buttons">
+        <a href="#" class="share-btn" data-type="twitter">Twitter</a>
+        <a href="#" class="share-btn" data-type="facebook">Facebook</a>
+        <a href="#" class="share-btn" data-type="line">LINE</a>
+    </div>
+
+    <button class="back-to-top">↑</button>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ユベントスFC</h3>
+                <p>公式ウェブサイト</p>
+            </div>
+            <div class="footer-section">
+                <h3>リンク</h3>
+                <ul>
+                    <li><a href="team.html">チーム</a></li>
+                    <li><a href="matches.html">試合情報</a></li>
+                    <li><a href="news.html">ニュース</a></li>
+                    <li><a href="community.html">コミュニティ</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2024 ユベントスFC. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
